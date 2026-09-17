@@ -1,4 +1,4 @@
-# Code supplement for the paper Optimisation of sampling design for spatial soil mapping with machine learning.
+# Code supplement for the paper Area of applicability-guided targeted sampling for spatial soil mapping with machine learning.
 
 [![DOI](https://zenodo.org/badge/1172630142.svg)](https://doi.org/10.5281/zenodo.18889938)
 
@@ -71,7 +71,6 @@ SOC prediction was run on the remote workstation using:
 - **Script:** `rf_cross_validation.ipynb`  
   Computes cross-validation metrics for baseline vs updated RF models.
 - **Inputs:**
-  - `original_training_data.gpkg` (baseline model)
-  - `updated_training_data.gpkg` (updated model)
+  - `updated_training_data.gpkg`
 
 ---
